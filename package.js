@@ -6,7 +6,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.0.3');
-  api.use(['tracker', 'templating', 'maxharris9:template-instance-utils'], 'client');
+  api.use(['tracker', 'templating', 'maxharris9:template-instance-utils@1.0.3'], 'client');
 
   api.addFiles('maxharris9:textfield.html', 'client');
   api.addFiles('maxharris9:textfield.js', 'client');

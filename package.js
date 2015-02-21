@@ -1,7 +1,8 @@
 Package.describe({
   summary: "Text field component for Meteor",
   version: "1.0.5",
-  git: "https://github.com/maxharris9/maxharris9-textfield.git"
+  git: "https://github.com/maxharris9/maxharris9-textfield.git",
+  description: null
 });
 
 Package.onUse(function(api) {
